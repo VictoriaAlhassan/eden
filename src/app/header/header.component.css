@@ -1,0 +1,49 @@
+.navigate {
+  display: inline-block;
+  width: 100%;
+
+  top: 0;
+
+  transition: background-color 0.4s ease-out;
+}
+header {
+  height: 20vh;
+  z-index: 9999;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #fff9f5;
+}
+.top {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #1d352a;
+  justify-content: center;
+  padding: 14px 0;
+  font-size: 0.875rem;
+}
+.header ul li {
+  /* display: flex; */
+  list-style-type: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 24px;
+  cursor: pointer;
+  /* padding: 10px, 0px, 10px, 26px; */
+  /* justify-content: center; */
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px 10px 10px;
+}
+.learn-btn {
+  border-radius: 7px;
+  background-color: green;
+  color: white;
+  padding: 3px;
+  border: none;
+}
